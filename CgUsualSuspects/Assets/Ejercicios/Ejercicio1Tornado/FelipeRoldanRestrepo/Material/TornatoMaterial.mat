@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: fbd5463126294a1408c5ef1059ee417a, type: 3}
+        m_Texture: {fileID: 2800000, guid: bff9f50957ab4a3409aa8863b1c03aca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6eb527cb1db74d8c961a07c21ae5da6b_Texture_1_Texture2D:
@@ -75,6 +75,6 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _rotationSpeed: 2
+    - _rotationSpeed: 1.5
     m_Colors: []
   m_BuildTextureStacks: []
