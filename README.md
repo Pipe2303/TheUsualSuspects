@@ -10,7 +10,10 @@ https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/0802a193-6edc-459c-
 
 ## Manuela Cuervo
 
-https://youtu.be/F8of-pzZXNE
+
+https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/4079a2b3-23bc-4a08-ad78-9ed618d4b289
+
+
 
 ## David Posada
 
