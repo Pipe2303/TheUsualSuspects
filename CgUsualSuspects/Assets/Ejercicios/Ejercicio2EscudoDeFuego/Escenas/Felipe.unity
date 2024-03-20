@@ -284,40 +284,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2557519439451930608, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
-        type: 3}
-      propertyPath: startDelay.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2557519439451930608, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2557519439451930608, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
-        type: 3}
-      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
-      value: 14.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397025747832909105, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
-        type: 3}
-      propertyPath: startDelay.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 5486965866403058746, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
         type: 3}
       propertyPath: m_Name
       value: Sparks
-      objectReference: {fileID: 0}
-    - target: {fileID: 6343114253104905081, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
-        type: 3}
-      propertyPath: startDelay.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6343114253104905081, guid: 2ddc6dd38795e7c4ea53aa0b3ca4d7dd,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
