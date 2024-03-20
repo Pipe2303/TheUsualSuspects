@@ -2511,11 +2511,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2605075067173483921, guid: 34a40febd87b9bd4a9bb82455c2e932f,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.08
-      objectReference: {fileID: 0}
     - target: {fileID: 3722613322296607096, guid: 34a40febd87b9bd4a9bb82455c2e932f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2570,16 +2565,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Sphere
-      objectReference: {fileID: 0}
-    - target: {fileID: 7885027431019333096, guid: 34a40febd87b9bd4a9bb82455c2e932f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7885027431019333096, guid: 34a40febd87b9bd4a9bb82455c2e932f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
