@@ -20,11 +20,10 @@ https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/c7f5a300-4039-47ef-
 #      
 # Second Excercise: Escudo de Fuego
 
-https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/562d7fa9-e1c8-4a2e-9e2b-dabcca1ba08f
+![EscudoDeFuegoVFX-ezgif com-video-to-gif-converter](https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/a833642b-b080-4eda-a164-b5459000b309)
 
 ### Closer
-
-https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/830f6926-d506-4599-8b8c-15091a308f71
+![EscudoDeFuegoVFX1-ezgif com-video-to-gif-converter](https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/f206c10d-b0ff-4c19-b656-3c0a4724a504)
 
 ## Some Close-ups to the Shaders
 ### Esfera
