@@ -73,7 +73,7 @@ Material:
     m_Colors:
     - _DeepColor: {r: 0.17771445, g: 0.20006098, b: 0.49056602, a: 0}
     - _FoamNoiseSplit: {r: 0.61, g: 0.3, b: 0, a: 0}
-    - _NoiseVelocityVector: {r: 1, g: 0, b: 0, a: 0}
+    - _NoiseVelocityVector: {r: 0.13, g: 0, b: 0, a: 0}
     - _RefractionIntensity: {r: 0.12, g: 0.1, b: 0, a: 0}
     - _ScatterThresholds: {r: -1.47, g: 5.57, b: 0, a: 0}
     - _ShallowColor: {r: 0, g: 1, b: 0.9118316, a: 0}
