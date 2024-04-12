@@ -63,12 +63,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DisplacementAmount: 1.34
+    - _DisplacementAmount: 1.17
     - _Float: 1
-    - _FoamCrest: -0.13
+    - _FoamCrest: -0.58
     - _FoamDensity: 90
     - _FoamNoiseSpeed: 17
-    - _LightIntensity: 85.5
+    - _LightIntensity: 114.6
     - _NoiseVelocity: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
