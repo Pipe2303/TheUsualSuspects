@@ -53,11 +53,17 @@ ShaderGraph
 ## Manuela Cuervo - Erosion
 ### 3. Dissolve With Noise
 
+https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/d781ab92-4298-4068-92df-9780f873e76a
+
+
 ShaderGraph
+![Screenshot 2024-04-12 003839](https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/6421cb10-b6cf-4238-8f76-26819eaa8baf)
 
 ### 4. Dissolve Pre-Created Texture
+![CgUsualSuspects-ManuelaCuervo-WindowsMacLinux-Unity2023 1 18f1__DX11_2024-04-1200-12-56-ezgif com-video-to-gif-converter](https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/0f8e0655-a9a7-4fb7-aacd-ed5fc8440672)
 
 ShaderGraph
+![Screenshot 2024-04-12 003718](https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/67158d65-805d-4650-859c-0c6c5316e48f)
 
 ## David Posada - Procedural UV coordinates
 ### 5. Polar Coordinates
