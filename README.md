@@ -67,12 +67,17 @@ ShaderGraph
 
 ## David Posada - Procedural UV coordinates
 ### 5. Polar Coordinates
+![CORDENADAS POLARES](https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/ec0acd54-7f4b-40f2-998a-7c89da3d1e5d)
 
 ShaderGraph
+![POLARES](https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/5e605309-dc3f-4ba2-b63d-96793e70ee17)
+
 
 ### 6. Mirror Texture
+![TEXTURA ESPEJO](https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/99b0f50b-1e4b-4f25-83c9-14222947d6db)
 
 ShaderGraph
+![ESPEJO](https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/6453a283-dd90-4021-aad7-9cf876a7da30)
 
 #
 # Fourth Excercise: Water
