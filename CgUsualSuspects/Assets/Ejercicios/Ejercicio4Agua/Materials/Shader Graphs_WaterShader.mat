@@ -68,6 +68,7 @@ Material:
     - _FoamCrest: -0.13
     - _FoamDensity: 90
     - _FoamNoiseSpeed: 17
+    - _LightIntensity: 85.5
     - _NoiseVelocity: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
