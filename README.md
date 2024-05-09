@@ -98,4 +98,13 @@ ShaderGraph
 
 ## David Posada - 
 
-## Manuela Cuervo - 
+## Manuela Cuervo - Screen Space Distortion
+
+https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/9782ae21-de29-4f44-851d-2ab1ef7dfdff
+
+
+
+Shader Graph
+![image](https://github.com/Pipe2303/TheUsualSuspects/assets/83100227/ed30b6d8-59bd-4a79-92a6-2c1635d8888d)
+
+
