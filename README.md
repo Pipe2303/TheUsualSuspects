@@ -96,7 +96,9 @@ https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/74e61e1a-8ff3-435d-
 ShaderGraph
 ![image](https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/b9b15e1e-b280-4332-ae49-88fde5b503b6)
 
-## David Posada - 
+## David Posada - Depth of Field
+
+https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/104aae1d-2953-4050-b4ff-e07bb412c342
 
 ## Manuela Cuervo - Screen Space Distortion
 
