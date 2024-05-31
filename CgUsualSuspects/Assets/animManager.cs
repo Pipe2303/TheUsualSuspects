@@ -35,6 +35,19 @@ public class animManager : MonoBehaviour
             Debug.Log(animation);
             canPause = true;
             canResume = false;
+
+            if (animation == 1)
+            {
+                davidParticles.Play();
+            }
+            else if (animation == 2)
+            {
+                manuParticles.Play();
+            }
+            else if (animation == 3)
+            {
+                pipeParticles.Play();
+            }
         }
     }
 
