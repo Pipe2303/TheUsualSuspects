@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3884235373524218671
+--- !u!114 &-8117265982048553724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
-  m_Name: Custom Chromatic Aberration
+  m_Name: ChromaticAb JC
   m_EditorClassIdentifier: 
-  m_Active: 1
-  passMaterial: {fileID: 2100000, guid: 2d8acf928d8bd6e47b860ae44868c088, type: 2}
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 7d4d3e88da7601d4983fd7fe226b59db, type: 2}
   injectionPoint: 600
   requirements: 4
   passIndex: 0
@@ -52,6 +52,23 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3302065f671a8450b82c9ddf07426f3a, type: 3}
   - {fileID: 2800000, guid: 56a77a3e8d64f47b6afe9e3c95cb57d5, type: 3}
   m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+--- !u!114 &-1393355584059201339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: ChromaticAberration JP
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 038f6bf035bc08142ade4501fd5a8c57, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,9 +102,10 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: -3884235373524218671}
-  - {fileID: 3731835036755025239}
-  m_RendererFeatureMap: adc0de57c6d2eee5d10c15e1816c18ca57dd239e3124ca33
+  - {fileID: 2887615681921315808}
+  - {fileID: -1393355584059201339}
+  - {fileID: -8117265982048553724}
+  m_RendererFeatureMap: adc0de57c6d2eee5e073c4d829df1228c52858867acea9ec0435a2b098ad598f
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -132,7 +150,7 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
---- !u!114 &3731835036755025239
+--- !u!114 &2887615681921315808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,11 +159,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
-  m_Name: ScreenSpace Distortion
+  m_Script: {fileID: 11500000, guid: 83727bf8149d4cd45bf676100f15c0a1, type: 3}
+  m_Name: MultiPassGaussianBlurG1
   m_EditorClassIdentifier: 
   m_Active: 0
-  passMaterial: {fileID: 2100000, guid: 48c3f5c760251254089a44019f526573, type: 2}
+  passCount: 16
+  pixelOffset: 0
+  renderMaterial: {fileID: 2100000, guid: 80846fca6087cac4d9f631e4963df847, type: 2}
+--- !u!114 &7596638422149684560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: JPCCChromatic aberration
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 038f6bf035bc08142ade4501fd5a8c57, type: 2}
   injectionPoint: 600
   requirements: 4
-  passIndex: 0
+  passIndex: 1

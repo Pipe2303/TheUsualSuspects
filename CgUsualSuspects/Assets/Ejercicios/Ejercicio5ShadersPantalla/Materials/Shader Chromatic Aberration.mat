@@ -40,7 +40,7 @@ Material:
     m_Floats:
     - _Blue_Shift: 1.5
     - _Green_Shift: 1
-    - _Intensity: 94.8
+    - _Intensity: 100
     - _Red_Shift: 0.5
     - _asdfsdf: 100
     m_Colors: []
