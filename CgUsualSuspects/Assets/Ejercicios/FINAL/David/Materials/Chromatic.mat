@@ -40,7 +40,7 @@ Material:
     m_Floats:
     - _Blue_Shift: 0.249
     - _Green_Shift: 0.722
-    - _Intensity: -0.0018158816
+    - _Intensity: -0.034886323
     - _Red_Shift: 0.107
     m_Colors: []
   m_BuildTextureStacks: []
