@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: Custom Chromatic Aberration
   m_EditorClassIdentifier: 
-  m_Active: 0
-  passMaterial: {fileID: 2100000, guid: 1af35de85d9dbeb4da3aac04cff6792f, type: 2}
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: 2d8acf928d8bd6e47b860ae44868c088, type: 2}
   injectionPoint: 600
   requirements: 4
   passIndex: 0
@@ -52,32 +52,6 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3302065f671a8450b82c9ddf07426f3a, type: 3}
   - {fileID: 2800000, guid: 56a77a3e8d64f47b6afe9e3c95cb57d5, type: 3}
   m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
---- !u!114 &-638833527439919945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6cb496a42e3818458880672d36df037, type: 3}
-  m_Name: CustomPostProcessInjector
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  chromaticAberration:
-    renderingShader: {fileID: 0}
-    passName: 
-  screenSpaceDistortion:
-    renderingShader: {fileID: 0}
-    passName: 
-  depthOfField:
-    renderingShader: {fileID: -6465566751694194690, guid: 9bc90306585d49f4cbc6c0ef23860cda,
-      type: 3}
-    passName: Depth Field
-  vignetteMaskedTexture:
-    renderingShader: {fileID: 0}
-    passName: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,8 +87,7 @@ MonoBehaviour:
   - {fileID: -1878332245247344467}
   - {fileID: -3884235373524218671}
   - {fileID: 3731835036755025239}
-  - {fileID: -638833527439919945}
-  m_RendererFeatureMap: adc0de57c6d2eee5d10c15e1816c18ca57dd239e3124ca33b774559e4a6822f7
+  m_RendererFeatureMap: adc0de57c6d2eee5d10c15e1816c18ca57dd239e3124ca33
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
