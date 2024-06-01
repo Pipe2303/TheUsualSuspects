@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class animManager : MonoBehaviour
 {
@@ -12,7 +13,9 @@ public class animManager : MonoBehaviour
     [SerializeField]
     private ParticleSystem manuParticles;
     [SerializeField]
-    private ParticleSystem pipeParticles;
+    private PlayableDirector pipeParticles;
+    [SerializeField]
+    private GameObject pipeParticlesSystem;
 
     private bool canPause;
     private bool canPlay;
@@ -39,13 +42,25 @@ public class animManager : MonoBehaviour
             if (animation == 1)
             {
                 davidParticles.Play();
+                manuParticles.Stop();
+                manuParticles.Clear();
+                
+                pipeParticles.Stop();
+                pipeParticlesSystem.SetActive(false);
             }
             else if (animation == 2)
             {
+                pipeParticles.Stop();
+                pipeParticlesSystem.SetActive(false);
+                davidParticles.Clear();
                 manuParticles.Play();
             }
             else if (animation == 3)
             {
+                pipeParticlesSystem.gameObject.SetActive(true);
+                manuParticles.Stop();
+                manuParticles.Clear();
+                davidParticles.Clear();
                 pipeParticles.Play();
             }
         }
