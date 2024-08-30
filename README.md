@@ -18,7 +18,7 @@ https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/c7f5a300-4039-47ef-
 
 
 #      
-# Second Excercise: Escudo de Fuego
+# Second Excercise: Fire Shield
 
 ![EscudoDeFuegoVFX-ezgif com-video-to-gif-converter](https://github.com/Pipe2303/TheUsualSuspects/assets/81448586/a833642b-b080-4eda-a164-b5459000b309)
 
@@ -101,7 +101,7 @@ ShaderGraph
 https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/104aae1d-2953-4050-b4ff-e07bb412c342
 
 
-ShaderGraph (se realizo en una rama aparte)
+ShaderGraph (was made in another branch)
 ![image](https://github.com/Pipe2303/TheUsualSuspects/assets/90971744/fa4cb804-23a1-4eac-8d2a-8d3b9f692da3)
 
 ## Manuela Cuervo - Screen Space Distortion
